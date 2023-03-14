@@ -29,3 +29,37 @@ body{
     font-weight: bold;
     border: 0;
 }
+
+#items{
+    background-color: red;
+    margin: 0% 20%;
+}
+.item{
+    background-color: white;
+    width:48%;
+    color: black;
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+}
+.item .item-img{
+    background-color: green;
+    display: flex;
+    width:30%
+}
+.item-img img{
+    width:100%;
+}
+.items .item-info{
+    background-color: yellow;
+    width:30%;
+    padding-left:10px;
+    display: flex;
+}
+.item-inf{
+    margin: auto;
+    }
+.br-small{
+    border-radius: 12px;
+}
